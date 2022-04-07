@@ -1,0 +1,21 @@
+h1 {
+  font-size: 230px;
+  font-family: Bebas Neue;
+  color: rgb(255, 255, 255);
+}
+
+a:link {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+}
+
+body {
+  font-size: 16px;
+  font-family: Bebas Neue;
+  background-image: url("greece.jpg");
+  background-size: 110% auto;
+}
