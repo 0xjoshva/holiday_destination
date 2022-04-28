@@ -9,11 +9,38 @@
     <h1 style="font-size: 50px; font-family: Bebas Neue">CITY CIRCUS</h1>
   </head>
   <body style="background-color: powderblue">
-    <ul style="font-family: Bebas Neue">
-      <li>Address: Sarri 16, Athina 105 53, Greece</li>
-      <li>Contact: +30 21 3023 7244</li>
-      <li>E-mail: info@citycircus.gr</li>
-    </ul>
+    <div>
+      <ul style="font-family: Bebas Neue">
+        <li>Address: Sarri 16, Athina 105 53, Greece</li>
+        <li>Contact: +30 21 3023 7244</li>
+        <li>E-mail: info@citycircus.gr</li>
+      </ul>
+    </div>
+    <div>
+      <form action="https://formspree.io/f/xnqwgjrz" method="post">
+        <!-- name -->
+        <label for="fname">Full Name: <input type="text" /></label>
+
+        <!-- email -->
+        <label for="email">E-Mail: <input type="email" name="email" /></label>
+
+        <!-- contact -->
+        <label for="contact"
+          >Contact No.: <input type="text" name="contact"
+        /></label>
+
+        <!-- date -->
+        <label for="date">Date: <input type="date" name="date" /></label>
+
+        <!-- time -->
+        <label for="time">Time: <input type="time" name="time" /> </label>
+
+        <!-- submit btn -->
+        <div>
+          <button type="submit">SEND</button>
+        </div>
+      </form>
+    </div>
     <a href="./index.html">Back to Homepage!</a>
   </body>
 </html>
